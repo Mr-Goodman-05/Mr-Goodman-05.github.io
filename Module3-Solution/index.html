@@ -23,7 +23,7 @@
         <a class="navbar-brand" href="#">Food, LLC</a>
       </div>
 
-      <!-- Navigation links (visible only on mobile) -->
+      <!-- Navigation links (only visible on mobile) -->
       <div class="collapse navbar-collapse" id="navbar-menu">
         <ul class="nav navbar-nav visible-xs">
           <li><a href="#chicken">Chicken</a></li>
@@ -39,46 +39,58 @@
     <h2>Our Menu</h2>
   </div>
 
-  <!-- Chicken Section -->
-  <div id="chicken" class="container section">
-    <div class="row">
+  <!-- === Desktop/Tablet View === -->
+  <div class="container hidden-xs">
+    <div class="row section">
       <div class="col-xs-12">
         <h3 class="text-center"><strong>Chicken</strong></h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod...</p>
-        <p>More sample chicken text here to fill up space and make the section scrollable.</p>
-        <div class="text-center">
-          <a href="#" class="btn btn-primary">Click here to go to top</a>
-        </div>
+        <p>Delicious grilled chicken with herbs and spices. Served with seasonal vegetables.</p>
       </div>
     </div>
-  </div>
-
-  <!-- Beef Section -->
-  <div id="beef" class="container section">
-    <div class="row">
+    <div class="row section">
       <div class="col-xs-12">
         <h3 class="text-center"><strong>Beef</strong></h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod...</p>
-        <p>More sample beef text here to fill up space and make the section scrollable.</p>
-        <div class="text-center">
-          <a href="#" class="btn btn-primary">Click here to go to top</a>
-        </div>
+        <p>Slow-roasted beef with garlic and rosemary. Served with mashed potatoes.</p>
+      </div>
+    </div>
+    <div class="row section">
+      <div class="col-xs-12">
+        <h3 class="text-center"><strong>Sushi</strong></h3>
+        <p>Fresh sushi rolls with salmon, avocado, and cucumber. Served with soy sauce.</p>
       </div>
     </div>
   </div>
 
-  <!-- Sushi Section -->
-  <div id="sushi" class="container section">
-    <div class="row">
-      <div class="col-xs-12">
-        <h3 class="text-center"><strong>Sushi</strong></h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce suscipit...</p>
-        <p>More sample sushi text here to fill up space and make the section scrollable.</p>
-        <div class="text-center">
-          <a href="#" class="btn btn-primary">Click here to go to top</a>
-        </div>
+  <!-- === Mobile View === -->
+  <div class="visible-xs">
+
+    <!-- Chicken -->
+    <div id="chicken" class="container section">
+      <h3 class="text-center"><strong>Chicken</strong></h3>
+      <p>Delicious grilled chicken with herbs and spices. Served with seasonal vegetables.</p>
+      <div class="text-center">
+        <a href="#" class="btn btn-primary">Click here to go to top</a>
       </div>
     </div>
+
+    <!-- Beef -->
+    <div id="beef" class="container section">
+      <h3 class="text-center"><strong>Beef</strong></h3>
+      <p>Slow-roasted beef with garlic and rosemary. Served with mashed potatoes.</p>
+      <div class="text-center">
+        <a href="#" class="btn btn-primary">Click here to go to top</a>
+      </div>
+    </div>
+
+    <!-- Sushi -->
+    <div id="sushi" class="container section">
+      <h3 class="text-center"><strong>Sushi</strong></h3>
+      <p>Fresh sushi rolls with salmon, avocado, and cucumber. Served with soy sauce.</p>
+      <div class="text-center">
+        <a href="#" class="btn btn-primary">Click here to go to top</a>
+      </div>
+    </div>
+
   </div>
 
   <!-- Bootstrap JS -->
