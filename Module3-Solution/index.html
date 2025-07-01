@@ -1,179 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food, LLC</title>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/3.3.7/css/bootstrap.min.css">
-    <style>
-        /* Custom CSS */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-
-        /* Navbar styling */
-        .navbar {
-            border: none;
-            border-radius: 0;
-            background-color: #f8f8f8;
-            border-bottom: 1px solid #e7e7e7;
-        }
-
-        .navbar-brand {
-            font-size: 28px;
-            font-weight: bold;
-            color: #000 !important;
-        }
-
-        .navbar-toggle {
-            border: 1px solid #000;
-        }
-
-        .navbar-toggle .icon-bar {
-            background-color: #000;
-        }
-
-        /* Dropdown menu styling */
-        .navbar-collapse {
-            border: none;
-            box-shadow: none;
-        }
-
-        .navbar-nav > li > a {
-            text-align: center;
-            background-color: #f8f8f8;
-            border-bottom: 1px solid #ccc;
-            color: #000 !important;
-            font-size: 18px;
-            padding: 15px;
-        }
-
-        .navbar-nav > li > a:hover {
-            background-color: #e7e7e7;
-        }
-
-        /* Page heading */
-        .page-heading {
-            margin: 40px 0;
-            font-size: 36px;
-            font-weight: bold;
-        }
-
-        /* Main content section */
-        .main-content {
-            background-color: #f0f0f0;
-            min-height: 1000px;
-            padding: 20px;
-            margin-bottom: 20px;
-            border: 1px solid #ccc;
-        }
-
-        .content-text {
-            font-size: 16px;
-            line-height: 1.6;
-            text-align: justify;
-        }
-
-        /* Mobile menu only visible on extra small screens */
-        @media (min-width: 768px) {
-            .navbar-toggle {
-                display: none !important;
-            }
-            
-            .navbar-collapse {
-                display: none !important;
-            }
-        }
-
-        /* Ensure dropdown menu takes full width on mobile */
-        @media (max-width: 767px) {
-            .navbar-collapse {
-                background-color: #f8f8f8;
-                border-top: 1px solid #e7e7e7;
-                margin-top: 1px;
-            }
-            
-            .navbar-nav {
-                margin: 0;
-            }
-            
-            .navbar-nav > li {
-                display: block;
-                width: 100%;
-            }
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>Assignment Solution for Module 3</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <!-- Navigation Bar -->
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <!-- Brand -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse" data-target="#mobile-menu" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Food, LLC</a>
-            </div>
 
-            <!-- Mobile Menu -->
-            <div class="collapse navbar-collapse" id="mobile-menu">
-                <ul class="nav navbar-nav visible-xs">
-                    <li><a href="#">Chicken</a></li>
-                    <li><a href="#">Beef</a></li>
-                    <li><a href="#">Sushi</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Page Content -->
+  <!-- Navbar -->
+  <nav class="navbar navbar-default">
     <div class="container-fluid">
-        <!-- Page Heading -->
-        <div class="row">
-            <div class="col-xs-12">
-                <h1 class="text-center page-heading">Our Menu</h1>
-            </div>
-        </div>
+      <div class="navbar-header">
+        <!-- Mobile menu toggle button -->
+        <button type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse" data-target="#navbar-menu" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">Food, LLC</a>
+      </div>
 
-        <!-- Main Content Section -->
-        <div class="row">
-            <div class="col-xs-12">
-                <div class="main-content">
-                    <div class="content-text">
-                        <p>Welcome to Food, LLC - your premier destination for exceptional dining experiences! We are proud to offer an extensive menu featuring the finest selections of chicken, beef, and sushi prepared by our world-class chefs.</p>
-
-                        <p>Our restaurant has been serving the community for over two decades, establishing ourselves as a cornerstone of culinary excellence. We believe that great food brings people together, and our mission is to create memorable dining experiences for every guest who walks through our doors.</p>
-
-                        <p>Our chicken dishes are prepared using only the freshest, locally-sourced ingredients. From our signature grilled chicken breast marinated in exotic spices to our famous chicken parmesan that has been featured in numerous food magazines, every bite is a testament to our commitment to quality and flavor.</p>
-
-                        <p>For beef enthusiasts, our menu offers an incredible selection ranging from tender steaks grilled to perfection to slow-cooked beef stews that have been simmering with love and care for hours. Our premium cuts are aged to perfection and sourced from the finest ranches, ensuring that every meal is an extraordinary experience.</p>
-
-                        <p>Sushi lovers will be delighted by our authentic Japanese preparations, crafted by master sushi chefs who have trained in the traditional methods passed down through generations. Our sashimi is sliced fresh daily, and our specialty rolls combine traditional techniques with innovative flavors that will surprise and delight your palate.</p>
-
-                        <p>At Food, LLC, we understand that dining is more than just eating - it's about creating connections, celebrating special moments, and experiencing the artistry of fine cuisine. Our warm and inviting atmosphere, combined with exceptional service, ensures that every visit is memorable.</p>
-
-                        <p>Whether you're joining us for a romantic dinner for two, a family celebration, or a business lunch, our diverse menu offers something special for every occasion. We also provide catering services for special events, bringing our culinary expertise directly to your venue.</p>
-
-                        <p>Our commitment to sustainability means we work closely with local farmers and suppliers to source ingredients that are not only delicious but also environmentally responsible. We believe in supporting our community while providing our guests with the freshest possible ingredients.</p>
-
-                        <p>Come visit us today and discover why Food, LLC has become synonymous with exceptional dining in our community. We look forward to serving you and making your dining experience truly unforgettable. Make a reservation today and taste the difference that passion and quality make!</p>
-
-                        <p>Food, LLC - Where every meal is a celebration of flavor, quality, and community. Experience the difference that decades of culinary expertise can make. We're not just serving food; we're creating memories, one dish at a time.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+      <!-- Collapsible menu -->
+      <div class="collapse navbar-collapse" id="navbar-menu">
+        <ul class="nav navbar-nav visible-xs">
+          <li><a href="#">Chicken</a></li>
+          <li><a href="#">Beef</a></li>
+          <li><a href="#">Sushi</a></li>
+        </ul>
+      </div>
     </div>
+  </nav>
 
-    <!-- Bootstrap JavaScript and jQuery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- Page Heading -->
+  <div class="container text-center">
+    <h2>Our Menu</h2>
+  </div>
+
+  <!-- Content Section -->
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 content-section">
+        <h3 class="text-center"><b>Chicken</b></h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+          dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <!-- Repeat paragraph to make it tall -->
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...
+          (Repeat as needed or use height in CSS)
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
