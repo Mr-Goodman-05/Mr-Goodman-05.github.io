@@ -13,23 +13,22 @@
   <nav class="navbar navbar-default">
     <div class="container-fluid">
       <div class="navbar-header">
-        <!-- Mobile menu toggle button -->
+        <!-- Mobile menu toggle -->
         <button type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse" data-target="#navbar-menu" aria-expanded="false">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <!-- Brand -->
         <a class="navbar-brand" href="#">Food, LLC</a>
       </div>
 
-      <!-- Collapsible menu -->
+      <!-- Navigation links (visible only on mobile) -->
       <div class="collapse navbar-collapse" id="navbar-menu">
         <ul class="nav navbar-nav visible-xs">
-          <li><a href="#">Chicken</a></li>
-          <li><a href="#">Beef</a></li>
-          <li><a href="#">Sushi</a></li>
+          <li><a href="#chicken">Chicken</a></li>
+          <li><a href="#beef">Beef</a></li>
+          <li><a href="#sushi">Sushi</a></li>
         </ul>
       </div>
     </div>
@@ -40,21 +39,44 @@
     <h2>Our Menu</h2>
   </div>
 
-  <!-- Content Section -->
-  <div class="container">
+  <!-- Chicken Section -->
+  <div id="chicken" class="container section">
     <div class="row">
-      <div class="col-xs-12 content-section">
-        <h3 class="text-center"><b>Chicken</b></h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-          dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <!-- Repeat paragraph to make it tall -->
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...
-        </p>
+      <div class="col-xs-12">
+        <h3 class="text-center"><strong>Chicken</strong></h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod...</p>
+        <p>More sample chicken text here to fill up space and make the section scrollable.</p>
+        <div class="text-center">
+          <a href="#" class="btn btn-primary">Click here to go to top</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Beef Section -->
+  <div id="beef" class="container section">
+    <div class="row">
+      <div class="col-xs-12">
+        <h3 class="text-center"><strong>Beef</strong></h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod...</p>
+        <p>More sample beef text here to fill up space and make the section scrollable.</p>
+        <div class="text-center">
+          <a href="#" class="btn btn-primary">Click here to go to top</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sushi Section -->
+  <div id="sushi" class="container section">
+    <div class="row">
+      <div class="col-xs-12">
+        <h3 class="text-center"><strong>Sushi</strong></h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce suscipit...</p>
+        <p>More sample sushi text here to fill up space and make the section scrollable.</p>
+        <div class="text-center">
+          <a href="#" class="btn btn-primary">Click here to go to top</a>
+        </div>
       </div>
     </div>
   </div>
