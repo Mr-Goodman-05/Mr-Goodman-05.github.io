@@ -1,0 +1,17 @@
+/* Add padding/margin to body if needed */
+body {
+  padding-top: 20px;
+}
+
+/* Tall section background */
+.content-section {
+  background-color: #cccccc;
+  padding: 20px;
+  height: 1000px; /* Makes it tall enough to scroll */
+}
+
+/* Optional: mobile menu full width background */
+.navbar-collapse .nav > li > a {
+  background-color: #e0e0e0; /* Matches mockup gray background */
+  border-bottom: 1px solid #bbb;
+}
