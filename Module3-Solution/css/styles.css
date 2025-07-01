@@ -1,17 +1,16 @@
-/* Add padding/margin to body if needed */
 body {
   padding-top: 20px;
 }
 
-/* Tall section background */
-.content-section {
+.section {
   background-color: #cccccc;
-  padding: 20px;
-  height: 1000px; /* Makes it tall enough to scroll */
+  padding: 30px 20px;
+  margin-bottom: 30px;
+  min-height: 800px; /* Adjust to create scroll */
 }
 
-/* Optional: mobile menu full width background */
+/* Optional style to better separate mobile nav items */
 .navbar-collapse .nav > li > a {
-  background-color: #e0e0e0; /* Matches mockup gray background */
+  background-color: #e0e0e0;
   border-bottom: 1px solid #bbb;
 }
