@@ -82,6 +82,10 @@
             .navbar-toggle {
                 display: none !important;
             }
+            
+            .navbar-collapse {
+                display: none !important;
+            }
         }
 
         /* Ensure dropdown menu takes full width on mobile */
@@ -94,6 +98,11 @@
             
             .navbar-nav {
                 margin: 0;
+            }
+            
+            .navbar-nav > li {
+                display: block;
+                width: 100%;
             }
         }
     </style>
@@ -114,8 +123,8 @@
             </div>
 
             <!-- Mobile Menu -->
-            <div class="collapse navbar-collapse visible-xs" id="mobile-menu">
-                <ul class="nav navbar-nav">
+            <div class="collapse navbar-collapse" id="mobile-menu">
+                <ul class="nav navbar-nav visible-xs">
                     <li><a href="#">Chicken</a></li>
                     <li><a href="#">Beef</a></li>
                     <li><a href="#">Sushi</a></li>
