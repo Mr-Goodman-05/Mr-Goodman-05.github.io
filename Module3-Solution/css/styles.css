@@ -6,10 +6,9 @@ body {
   background-color: #cccccc;
   padding: 30px 20px;
   margin-bottom: 30px;
-  min-height: 800px; /* Adjust to create scroll */
+  min-height: 600px; /* enough to allow scrolling on mobile */
 }
 
-/* Optional style to better separate mobile nav items */
 .navbar-collapse .nav > li > a {
   background-color: #e0e0e0;
   border-bottom: 1px solid #bbb;
